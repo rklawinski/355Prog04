@@ -329,7 +329,7 @@ class Customer {
         echo "
             </head>
             <body>
-                <a href='https://github.com/jrklawin/355Prog04' target='_blank'>Github</a><br />
+                <a href='https://github.com/rklawinski/355Prog04' target='_blank'>Github</a><br />
                 <div class='container'>
                     <p class='row'>
                         <h3>$this->title" . "s" . "</h3>
@@ -371,7 +371,7 @@ class Customer {
                         </table>
                     </div>
                     <p class='row'>
-                    <a href=/~jrklawin/355Prog04/uploads/> View all files uploaded using <strong>Option 1</strong></a>
+                    <a href=uploads/> View all files uploaded using <strong>Option 1</strong></a>
                     <h3>Option 2 Images</h3>
                     </p>
                     <div class='row'>
@@ -411,7 +411,7 @@ class Customer {
             echo "<td><img src = 'uploads/" . $row["fileName"] . "' height='42' width='42'></td>";
             echo "<td>";
             if($row["fileName"] != null)
-                echo "~jrklawin/355Prog04/uploads/" . $row["fileName"] . "</td>";
+                echo "uploads/" . $row["fileName"] . "</td>";
             else
                 echo "No image</td>";
             echo "<td>". $row["fileDescription"] . "</td>";

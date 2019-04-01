@@ -4,9 +4,9 @@ class Database
 	
 
 	// 000webhost variables
-	private static $dbName = 'jrklawin355wi19'; 
-	private static $dbHost = '10.8.30.49' ;
-	private static $dbUsername = 'jrklawin355wi19';
+	private static $dbName = 'id7405003_jrklawin355wi19'; 
+	private static $dbHost = 'localhost' ;
+	private static $dbUsername = 'id7405003_jrklawin355wi19';
 	private static $dbUserPassword = 'roman123';
 
 	private static $dbConnection  = null;
